@@ -5,6 +5,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.validation.constraints.Size;
 import org.springframework.data.annotation.Id;
 
+import java.util.Objects;
+
 @Entity
 public class EventCategory {
 
