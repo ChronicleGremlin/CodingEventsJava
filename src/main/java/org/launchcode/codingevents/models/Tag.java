@@ -29,7 +29,7 @@ public class Tag extends AbstractEntity {
     }
 
     public String getDisplayName() {
-        return "@" + name + " ";
+        return "#" + name + " ";
     }
 
     public void setName(String name) {
